@@ -15,7 +15,7 @@
       <div class="left-side">
         <p>Amount</p>
         <div class="input-wrapper">
-          <input type="number">
+          <input type="number" id="amount-input">
           <select name="country" id="country-select">
             <option value="usd">USD</option>
             <option value="pln">PLN</option>
@@ -27,15 +27,15 @@
       <div class="right-side">
         <p>Converted to</p>
         <div class="input-wrapper">
-          <input type="number">
-          <select name="country" id="country-select">
-            <option value="usd">USD</option>
+          <input type="number" id="converted-to-input">
+          <select name="country" id="country-select-from">
             <option value="pln">PLN</option>
+            <option value="usd">USD</option>
             <option value="egp">EGP</option>
           </select>
         </div>
       </div>
     </div>
-    <script src="js/index.js" async defer></script>
+    <script type="module" src="js/index.js" async defer></script>
   </body>
 </html>
