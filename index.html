@@ -15,9 +15,9 @@
       <div class="left-side">
         <p>Amount</p>
         <div class="input-wrapper">
-          <input type="number" id="amount-input">
-          <select name="country" id="country-select">
-            <option value="USD">USD</option>
+          <input type="number" value="100" id="first-input">
+          <select name="country" id="country-select-first">
+            <option value="USD" selected>USD</option>
             <option value="PLN">PLN</option>
             <option value="EGP">EGP</option>
           </select>
@@ -27,11 +27,12 @@
       <div class="right-side">
         <p>Converted to</p>
         <div class="input-wrapper">
-          <input type="number" id="converted-to-input">
-          <select name="country" id="country-select-from">
+          <input type="number" id="second-input">
+          <select name="country" id="country-select-second">
             <option value="PLN">PLN</option>
             <option value="USD">USD</option>
             <option value="EGP">EGP</option>
+            <option value="EUR" selected>EGP</option>
           </select>
         </div>
       </div>

@@ -1,21 +1,13 @@
-// input from 
-const amountInput = document.getElementById('amount-input')
-// input to
-const convertedToInput = document.getElementById('converted-to-input')
+const firstInput = document.getElementById('first-input')
+const country_select_first = document.getElementById('country-select-first')
 
-// choose a currency country 
-const countrySelectFrom = document.getElementById('country-select')
-const countrySelectTo = document.getElementById('country-select-from')
-
-// arrows button
-const arrowBtn = document.querySelector('.arrow-btn')
+const secondInput = document.getElementById('second-input')
+const country_select_second = document.getElementById('country-select-second')
 
 function displayCurrency(){
- 
+
 }
 
 
-
-amountInput.addEventListener('keyup', displayCurrency)
-countrySelectFrom.addEventListener('change', displayCurrency)
-
+firstInput.addEventListener('input', displayCurrency)
+country_select_first.addEventListener('change', displayCurrency)
