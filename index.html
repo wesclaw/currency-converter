@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Currency Converter</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <h1>Currency Converter</h1>
+    <div class="container">
+      <div class="left-side">
+        <p>Amount</p>
+        <div class="input-wrapper">
+          <input type="number">
+          <select name="country" id="country-select">
+            <option value="usd">USD</option>
+            <option value="pln">PLN</option>
+            <option value="egp">EGP</option>
+          </select>
+        </div>
+      </div>
+      <button class="arrow-btn"><img src="images/arrows.png" class="arrows-icon"></button>
+      <div class="right-side">
+        <p>Converted to</p>
+        <div class="input-wrapper">
+          <input type="number">
+          <select name="country" id="country-select">
+            <option value="usd">USD</option>
+            <option value="pln">PLN</option>
+            <option value="egp">EGP</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js" async defer></script>
+  </body>
+</html>
